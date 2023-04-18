@@ -14,7 +14,7 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
+      <Stack.Navigator initialRouteName="Register">
         <Stack.Screen name="Register" component={Register} options={{ title: 'Register Page' }} />
         <Stack.Screen name="Home" component={Home} options={{ title: 'Home Page' }} />
         <Stack.Screen name="Duration" component={DurFunction} options={{ title: 'Duration Exercise Page' }} />
